@@ -72,7 +72,7 @@ const TriviaScreen: React.FC<TriviaScreenProps> = ({ category, difficulty, onFin
         : [currentQuestion.correct_answer]
 
   return (
-    <div className='container col-4'>
+    <div className='container col-sm-4'>
         <h2 className='subtitle'>{currentQuestion.question}</h2>
         <div className='list-group'>
             {answers.map((answer, index) => (

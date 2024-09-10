@@ -8,7 +8,7 @@ interface ResultScreenProps {
 
 const ResultScreen: React.FC<ResultScreenProps> = ({ score, onRestart, onExit }) => {
   return (
-    <div className='container col-4'>
+    <div className='container col-sm-4'>
         <h1 className='subtitle'>Tu puntaje: {score}</h1>
         <button
             className='btn btn-primary'

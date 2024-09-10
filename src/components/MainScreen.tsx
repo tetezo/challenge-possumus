@@ -27,7 +27,7 @@ const MainScreen: React.FC<MainScreenProps> = ({ onStartGame }) => {
     }
 
   return (
-    <div className='container col-4'>
+    <div className='container col-sm-4'>
         <h1 className='title'>Configura tu trivia</h1>
         <div className='form-group'>
             <label>Temática</label>
